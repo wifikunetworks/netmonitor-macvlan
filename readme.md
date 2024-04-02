@@ -1,4 +1,5 @@
 ```
+opkg update
 wget -O /etc/netdata/netdata.conf https://raw.githubusercontent.com/wifikunetworks/netmonitor/main/netdata.conf
 wget -O /etc/config/vnstat https://raw.githubusercontent.com/wifikunetworks/netmonitor/main/vnstat
 wget -O /etc/vnstat.conf https://raw.githubusercontent.com/wifikunetworks/netmonitor/main/vnstat.conf
