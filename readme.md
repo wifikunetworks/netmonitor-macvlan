@@ -9,6 +9,7 @@ wget --no-check-certificate -N -P /www https://raw.githubusercontent.com/wifikun
 wget --no-check-certificate -N -P /www/vnstati https://raw.githubusercontent.com/wifikunetworks/netmonitor-macvlan/main/index.html
 wget --no-check-certificate -N -P /www/vnstati https://raw.githubusercontent.com/wifikunetworks/netmonitor-macvlan/main/vnstati.sh && chmod +x /www/vnstati/vnstati.sh
 service vnstat restart
+/www/vnstati/vnstati.sh
 ```
 
 
